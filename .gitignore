@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Local database files
+*.db
+
+
+# Raw data - DO NOT COMMIT REAL POS DATA
+data/raw/*.xlsx
+data/raw/*.csv
+
+# But keep small sample data under a dedicated folder
+!data/raw/sample_data/
+!data/raw/sample_data/*.csv
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
